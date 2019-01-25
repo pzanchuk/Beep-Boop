@@ -1,10 +1,23 @@
 .container{
   width: 60%;
   text-align: center;
-  border: 1px solid red;
 }
 
+.output{
+  display: none;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
 
 form {
     display: inline-block;
+}
+
+.jumbotron{
+  background-color: white;
+}
+
+.jumbotron p{
+  font-size: 14px;
 }

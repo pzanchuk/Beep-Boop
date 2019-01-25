@@ -16,7 +16,7 @@ _Final project link: (https://pzanchuk.github.io/Beep-Boop/)_
 | **Program accepts only numeric character** | User input: "hello" | Output: "Please enter a numeric value!"|
 | **Program replaces numbers that contain 0 with "Beep!".**| User input: 203 | Output: "Beep!"|
 | **Program replaces numbers that contain 1 with "Boop!".** | User input: 17 | Output: "Boop!"|
-| **Program replaces numbers that are divisible by 3 with "I am sorry(userName), I'm afraid I can't do that.".** | User input: tree | Output: "eetray"|
+| **Program replaces numbers that are divisible by 3 with "I am sorry(userName). I'm afraid I can't do that.".** | User input: 30 | Output: "I am sorry(userName). I'm afraid I can't do that."|
 
 ## Setup/Installation Requirements
 

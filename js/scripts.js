@@ -20,8 +20,8 @@ $(document).ready(function() {
     event.preventDefault();
     var userName = $("input#name").val();
     var userInput = parseInt($("input#number").val());
+    $(".output").show();
     $("#result").append(replacer(userInput, userName)+ ", ");
-    ;
 
   });
  });
