@@ -10,7 +10,7 @@ function replacer(number, name){
       return number;
     }
   }else{
-    alert("Please enter a numeric value")
+    alert("Please enter a numeric value!")
   }
 }
 
