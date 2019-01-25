@@ -17,8 +17,10 @@ function replacer(number){
     alert("I'm sorry, Dave. I'm afraid I can't do that")
   }else if(number.toString().includes("1")){
     alert("Boop")
-  }else{
+  }else if(number.toString().includes("0")){
     alert("Beep");
+  }else{
+    alert(number);
   }
 }
 
