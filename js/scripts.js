@@ -1,5 +1,5 @@
 function replacer(number, name){
-  if(number){
+  if(number || number === 0){
     if(number % 3 === 0){
       return "\"I'm sorry, "+name+". I'm afraid I can't do that.\"";
     }else if(number.toString().includes("1")){
