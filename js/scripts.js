@@ -14,17 +14,10 @@ function replacer(number, name){
       } return reversed;
     }
   }else{
-    alert("Please enter a numeric value!")
+    alert("Please enter a numeric value!");
+    return "I am not a number";
   }
 }
-
-// function reverse(number){
-//   var numberToArray = number.toString().split("");
-//   var reversed = "";
-//   for( var i = number.length-1; i >= 0; i --){
-//     reversed += number[i];
-//   } return reversed;
-// }
 
 $(document).ready(function() {
 
@@ -32,7 +25,7 @@ $(document).ready(function() {
     event.preventDefault();
     var userName = $("input#name").val();
     var userInput = parseInt($("input#number").val());
-    $("#result").append(replacer(userInput, userName)+ ", ");
+    $("#result").append(replacer(userInput, userName)+ " ");
     $(".output").show();
   });
  });
