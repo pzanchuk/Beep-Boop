@@ -7,21 +7,32 @@ function replacer(number, name){
     }else if(number.toString().includes("0")){
       return "\"Beep!\"";
     }else{
-      return number;
+      var numberToArray = number.toString().split("");
+      var reversed = "";
+      for( var i = numberToArray.length-1; i >= 0; i --){
+        reversed += numberToArray[i];
+      } return reversed;
     }
   }else{
     alert("Please enter a numeric value!")
   }
 }
 
+// function reverse(number){
+//   var numberToArray = number.toString().split("");
+//   var reversed = "";
+//   for( var i = number.length-1; i >= 0; i --){
+//     reversed += number[i];
+//   } return reversed;
+// }
 
 $(document).ready(function() {
+
   $("form#form").submit(function(event) {
     event.preventDefault();
     var userName = $("input#name").val();
     var userInput = parseInt($("input#number").val());
-    $(".output").show();
     $("#result").append(replacer(userInput, userName)+ ", ");
-
+    $(".output").show();
   });
  });

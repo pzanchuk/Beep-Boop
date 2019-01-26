@@ -13,10 +13,12 @@ _Final project link: (https://pzanchuk.github.io/Beep-Boop/)_
 
 | Behavior - Plain English | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Program accepts only numeric character** | User input: "hello" | Output: "Please enter a numeric value!"|
-| **Program replaces numbers that contain 0 with "Beep!".**| User input: 203 | Output: "Beep!"|
-| **Program replaces numbers that contain 1 with "Boop!".** | User input: 17 | Output: "Boop!"|
-| **Program replaces numbers that are divisible by 3 with "I am sorry(userName). I'm afraid I can't do that.".** | User input: 30 | Output: "I am sorry(userName). I'm afraid I can't do that."|
+| **1. Program accepts only numeric character** | User input: "hello" | Output: "Please enter a numeric value!"|
+| **2. Program replaces number that contains 0 with "Beep!".**| User input: 203 | Output: "Beep!"|
+| **3. Program replaces number that contains 1 with "Boop!" and overrides specification 2.** | User input: 17 | Output: "Boop!"|
+| **4. Program replaces number that is divisible by 3 with "I am sorry(userName). I'm afraid I can't do that." and overrides specifications 2 and 3.** | User input: 30 | Output: "I am sorry(userName). I'm afraid I can't do that."|
+| **5. Program reverses number if it does not meet specifications 2,3, and 4.**| User input: 43 | Output: 34|
+
 
 ## Setup/Installation Requirements
 
