@@ -11,7 +11,7 @@ _Final project link: (https://pzanchuk.github.io/Beep-Boop/)_
 
 ### Specs
 
-Program takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
+_Program takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:_
 
 | Behavior - Plain English | Input | Output |
 | :-------------     | :------------- | :------------- |
