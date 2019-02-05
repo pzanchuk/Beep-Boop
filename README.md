@@ -11,13 +11,16 @@ _Final project link: (https://pzanchuk.github.io/Beep-Boop/)_
 
 ### Specs
 
+Program takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
+
 | Behavior - Plain English | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **1. Program accepts only numeric character** | User input: "hello" | Output: "Please enter a numeric value!"|
-| **2. Program replaces number that contains 0 with "Beep!".**| User input: 203 | Output: "Beep!"|
-| **3. Program replaces number that contains 1 with "Boop!" and overrides specification 2.** | User input: 17 | Output: "Boop!"|
-| **4. Program replaces number that is divisible by 3 with "I am sorry(userName). I'm afraid I can't do that." and overrides specifications 2 and 3.** | User input: 30 | Output: "I am sorry(userName). I'm afraid I can't do that."|
-| **5. Program reverses number if it does not meet specifications 2,3, and 4.**| User input: 43 | Output: 34|
+| **1. Program accepts only numeric character** | User input: "hello" | Output: "NOT a number!"|
+| **2. Program replaces number that contains 0 with "Beep!".**| User input: 2 | Output: "Beep!" "Boop!" 2|
+| **3. Program replaces number that contains 1 with "Boop!" and overrides specification 2.** | User input: 1 | Output: "Beep!" "Boop!"|
+| **4. Program replaces number that is divisible by 3 with "I am sorry,(userName). I'm afraid I can't do that." and overrides specifications 2 and 3.** | User input: 3 | Output: "Beep!" "Boop!" 2 "I'm sorry,(userName) . I'm afraid I can't do that."|
+| **5. If the number does not meet all the above, it stays as is** | User input: 5 | Output: "Beep!" "Boop!" 2 "I'm sorry,(userName). I'm afraid I can't do that." 4 5|
+
 
 
 ## Setup/Installation Requirements
